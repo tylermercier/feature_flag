@@ -5,7 +5,7 @@ class Lookup
   end
 
   def self.enabled(value)
-    return true if value =~ (/(true|t|yes|y|enabled|1)$/i)
+    return true if value =~ (/^(true|t|yes|y|enabled|1)$/i)
     false
   end
 end
