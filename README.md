@@ -7,7 +7,6 @@ Ruby gem for tying feature flags to environment variables
 [![Build Status](https://secure.travis-ci.org/tylermercier/feature_flag.png)](http://travis-ci.org/tylermercier/feature_flag)
 [![Code Climate](https://codeclimate.com/github/tylermercier/feature_flag.png)](https://codeclimate.com/github/tylermercier/feature_flag)
 
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,9 +21,15 @@ Or install it yourself as:
 
     $ gem install feature_flag
 
-## Usage
+## How to use
 
-Doing trunk based development? Want to continuously release to production? Try feature_flag
+Add an environment variable for your feature (FEATURE=true)
+
+[dotenv](https://github.com/bkeepers/dotenv) is a great gem for managing environment variables
+
+Check if the feature is enabled
+
+    return 'feature enabled' if FeatureFlag::Feature
 
 ## Contributing
 
