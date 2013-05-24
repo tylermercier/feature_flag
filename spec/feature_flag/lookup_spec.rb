@@ -29,6 +29,12 @@ describe Lookup do
       end
     end
 
+    it 'should not have false positive matches to non-true values' do
+      %w(untrue not eyes silly unenabled 101).each do |value|
+        Lookup.enabled(value).should == false
+      end
+    end
+
     it 'should match false values' do
       %w(false f no n disabled 0).each do |value|
         Lookup.enabled(value).should == false
