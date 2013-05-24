@@ -1,6 +1,9 @@
 # FeatureFlag
 
-TODO: Write a gem description
+Ruby gem for tying feature flags to environment variables
+
+## Build Status
+[![Build Status](https://secure.travis-ci.org/tylermercier/feature_flag.png)](http://travis-ci.org/tylermercier/feature_flag)
 
 ## Installation
 
