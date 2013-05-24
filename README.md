@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Doing trunk based development? Want to continuously release to production? Try feature_flag
 
 ## Contributing
 
