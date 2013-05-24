@@ -29,7 +29,7 @@ Add an environment variable for your feature (FEATURE=true)
 
 Check if the feature is enabled
 
-    return 'feature enabled' if FeatureFlag::Feature
+    return 'feature enabled' if FeatureFlag::FEATURE
 
 ## Contributing
 
