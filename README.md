@@ -2,10 +2,11 @@
 
 Ruby gem for tying feature flags to environment variables
 
-## Build Status
+## Status
+[![Gem Version](https://badge.fury.io/rb/feature_flag.png)](http://badge.fury.io/rb/feature_flag)
 [![Build Status](https://secure.travis-ci.org/tylermercier/feature_flag.png)](http://travis-ci.org/tylermercier/feature_flag)
 [![Code Climate](https://codeclimate.com/github/tylermercier/feature_flag.png)](https://codeclimate.com/github/tylermercier/feature_flag)
-[![Gem Version](https://badge.fury.io/rb/feature_flag.png)](http://badge.fury.io/rb/feature_flag)
+
 
 ## Installation
 
