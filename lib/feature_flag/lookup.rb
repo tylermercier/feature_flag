@@ -1,9 +1,11 @@
 class Lookup
   def self.check_flag(key)
     return false if ENV[key].nil? || ENV[key].empty?
-    return false if ENV[key] == false || ENV[key] =~ (/(false|f|no|n|0)$/i)
-    return true if ENV[key] == true || ENV[key] =~ (/(true|t|yes|y|1)$/i)
+    enabled(ENV[key])
+  end
 
-    raise ArgumentError.new("invalid value for flag: #{key}")
+  def self.enabled(value)
+    return true if value =~ (/(true|t|yes|y|enabled|1)$/i)
+    false
   end
 end
