@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = FeatureFlag::VERSION
   spec.authors       = ["Tyler Mercier"]
   spec.email         = ["tylermercier@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Ruby gem for tying feature flags to environment variables}
+  spec.summary       = %q{Ruby gem for tying feature flags to environment variables}
   spec.homepage      = ""
   spec.license       = "MIT"
   spec.files         = `git ls-files`.split($/)
